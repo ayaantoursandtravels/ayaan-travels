@@ -3,8 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "export",
   reactCompiler: true,
-  basePath: ".",
-  assetPrefix: ".",
+  basePath: "",
+  assetPrefix: "",
   images: {
     unoptimized: true,
   },
